@@ -1,8 +1,11 @@
 # Windows-95-Key-Generator
 Windows-95-Key-Generator！！！ Windows 95密钥生成器！！！
 
-灵感来源：https://www.youtube.com/watch?v=3DCEeASKNDk
-Inspiration: https://www.youtube.com/watch?v=3DCEeASKNDk
+#灵感来源
+https://www.youtube.com/watch?v=3DCEeASKNDk
+
+#Inspiration
+https://www.youtube.com/watch?v=3DCEeASKNDk
 
 # 原理
 Windows 95的密钥生成十分简单，首先生成一个5位数，前3位数生成001到366某一个数，后2位生成1995~2003年的后2位，比如95，97，98....等，再生成3个字母，只能是OEM。再生成7个数字第一位必须是0，其他相加后能和7整除，之后生成5位随机数字，中间要杠号隔开，比如XXXXX-OEM-XXXXXXX-XXXXX。我们只需动手写一写，就能写出一个生成器。
