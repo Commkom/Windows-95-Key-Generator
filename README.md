@@ -14,9 +14,9 @@ Windows 95的密钥生成十分简单，首先生成一个5位数，前3位数�
 Windows 95 key generation is very simple, first generate a 5-digit number, the first 3 digits generate a number from 001 to 366, and the last 2 digits generate the last 2 digits of 1995~2003, such as 95, 97, 98.... etc., and then generate 3 letters, which can only be OEM. The first digit of 7 numbers must be 0, and the others can be divisible by 7 after adding, and then 5 random numbers are generated, separated by a bar, such as XXXXX-OEM-XXXXXXX-XXXXX. We can write a generator by just writing it with our hands.
 
 # 如何运行？
-下载python打包过的版本，解压后就可以运行！！
+下载python打包过的版本或者C语言版本，解压后就可以运行！！
 # How does it work?
-Download the packaged version of python, unzip it and you can run it!!
+Download the python packaged version or C language version, decompress it and you can run it!!
 
 # 警告
 禁止用于任何违法用途
